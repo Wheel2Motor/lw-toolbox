@@ -95,7 +95,7 @@ class Translator(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
         QtWidgets.QMainWindow.__init__(self, parent=parent)
 
-        self.setWindowFlags(QtCore.Qt.FramelessWindowHint | QtCore.Qt.WindowStaysOnTopHint)
+        self.setWindowFlags(QtCore.Qt.FramelessWindowHint | QtCore.Qt.WindowStaysOnTopHint | | QtCore.Qt.Tool)
         self.setAttribute(QtCore.Qt.WA_TranslucentBackground, True)
         self.setWindowOpacity(0.9)
 
